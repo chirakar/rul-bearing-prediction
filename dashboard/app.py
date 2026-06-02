@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🔧 Predictive Maintenance Dashboard")
+st.title("Predictive Maintenance Dashboard")
 st.subheader("Bearing Remaining Useful Life Prediction")
 
 # LOAD DATA

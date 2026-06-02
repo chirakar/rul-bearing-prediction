@@ -19,8 +19,8 @@ st.subheader("Bearing Remaining Useful Life Prediction")
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 metrics = pd.read_csv(BASE_DIR / "model_metrics.csv")
-latest = pd.read_csv(BASE_DIR / "Final_best_test_predictions_final.csv")
-timeseries = pd.read_csv(BASE_DIR / "Final_best_test_predictions_timeseries.csv")
+latest = pd.read_csv(BASE_DIR / "Finalbest_test_predictions_final_v4.csv")
+timeseries = pd.read_csv(BASE_DIR / "Finalbest_test_predictions_timeseries_v4.csv")
 
 # ACTUAL RUL VALUES
 
